@@ -1,0 +1,12 @@
+body{
+    background-image: url("../oficina/imagens/wallpapers-branco-em-4k-11.jpg");
+    
+}
+
+.text-shad{
+    text-shadow: 5px 5px 5px rgb(14, 242, 37);
+}
+h1, h2{
+    text-align: center;
+    text-shadow: 5px 5px 5px #727272;
+}

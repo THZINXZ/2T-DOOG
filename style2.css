@@ -1,0 +1,62 @@
+
+.container{
+    display: flex;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 5px 5px 5px blueviolet;
+}
+
+body{
+    color: rgb(21, 15, 15);
+   
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.card{
+    border-radius: 20px;
+    margin-right: 800px;
+    height: 200px;
+    width: 350px;
+    background-image: url("../oficina/imagens/criancas-comendo-cachorro-quente-juntas_23-2148914520.avif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    flex: 1;
+    transition: .3s all ease;
+}
+.card:hover{
+    flex: 2;
+}
+.card02{
+    border-radius: 20px;
+    margin-right: 800px;
+    margin-top: 20px;
+    height: 200px;
+    width: 350px;
+    background-image: url("../oficina/imagens/Como-fazer-cachorro-quente-para-20-pessoas-1200x675.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    background-position: center;
+    flex: 1;
+    transition: .3s all ease;
+}
+.card03{
+    border-radius: 20px;
+    width: 350px;
+    margin-top: 20px;
+    background-position: center;
+    height: 200px;
+    background-image: url("../oficina/imagens/depositphotos_83569876-stock-photo-young-man-eating-hot-dog.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    flex: 1;
+    transition: .3s all ease;
+}
+body{
+    background-image: url("../oficina/imagens/wallpapers-branco-em-4k-11.jpg");
+}
